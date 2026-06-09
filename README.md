@@ -97,6 +97,14 @@ pip install -e ".[dev]"
 python3 -m unittest discover -s tests   # stdlib unittest, no network, no whisper
 ```
 
+## Roadmap
+
+Honest next steps:
+
+- Output formats beyond `.txt` — `.srt`, `.vtt`, and JSON segments (Whisper already produces them internally).
+- Recursive folder scanning.
+- A per-run summary file (done / failed / skipped) for auditable batch jobs.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
