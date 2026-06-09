@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# whisper-batch output (audio inputs & generated transcripts)
+*.txt
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+*.wma
+
+# Keep the docs/text files we actually ship
+!README.md
+!RELEASE_READINESS.md
+!requirements*.txt
